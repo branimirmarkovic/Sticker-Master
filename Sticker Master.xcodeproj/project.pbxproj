@@ -14,6 +14,7 @@
 		225879BD28BD2C0200FA22D0 /* Sticker_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879BC28BD2C0200FA22D0 /* Sticker_MasterTests.swift */; };
 		225879C728BD2C0200FA22D0 /* Sticker_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879C628BD2C0200FA22D0 /* Sticker_MasterUITests.swift */; };
 		225879C928BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879C828BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift */; };
+		225879D628BD311D00FA22D0 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879D528BD311D00FA22D0 /* Sticker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		225879C228BD2C0200FA22D0 /* Sticker MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sticker MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225879C628BD2C0200FA22D0 /* Sticker_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker_MasterUITests.swift; sourceTree = "<group>"; };
 		225879C828BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		225879D528BD311D00FA22D0 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				225879AE28BD2C0100FA22D0 /* Assets.xcassets */,
 				225879B028BD2C0100FA22D0 /* LaunchScreen.storyboard */,
 				225879B328BD2C0100FA22D0 /* Info.plist */,
+				225879D528BD311D00FA22D0 /* Sticker.swift */,
 			);
 			path = "Sticker Master";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				225879A628BD2BFF00FA22D0 /* AppDelegate.swift in Sources */,
+				225879D628BD311D00FA22D0 /* Sticker.swift in Sources */,
 				225879A828BD2BFF00FA22D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
