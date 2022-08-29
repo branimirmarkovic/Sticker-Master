@@ -97,6 +97,7 @@
 		225879A428BD2BFF00FA22D0 /* Sticker Master */ = {
 			isa = PBXGroup;
 			children = (
+				225879D728BD3A8200FA22D0 /* Album */,
 				225879A528BD2BFF00FA22D0 /* AppDelegate.swift */,
 				225879A728BD2BFF00FA22D0 /* SceneDelegate.swift */,
 				225879AE28BD2C0100FA22D0 /* Assets.xcassets */,
@@ -122,6 +123,21 @@
 				225879C828BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift */,
 			);
 			path = "Sticker MasterUITests";
+			sourceTree = "<group>";
+		};
+		225879D728BD3A8200FA22D0 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				225879D828BD3A8800FA22D0 /* Model */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		225879D828BD3A8800FA22D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

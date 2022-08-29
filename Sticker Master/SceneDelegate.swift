@@ -13,6 +13,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        let provider = LocalQatarWorldCupAlbumProvider()
+        let album = provider.makeAlbum()
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
