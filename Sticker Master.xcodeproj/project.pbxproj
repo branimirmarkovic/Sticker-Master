@@ -15,6 +15,11 @@
 		225879C728BD2C0200FA22D0 /* Sticker_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879C628BD2C0200FA22D0 /* Sticker_MasterUITests.swift */; };
 		225879C928BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879C828BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift */; };
 		225879D628BD311D00FA22D0 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879D528BD311D00FA22D0 /* Sticker.swift */; };
+		225879DC28BD3AC900FA22D0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879DB28BD3AC900FA22D0 /* Album.swift */; };
+		225879DE28BD3AE300FA22D0 /* StickerCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879DD28BD3AE300FA22D0 /* StickerCollection.swift */; };
+		225879E028BD3AFE00FA22D0 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879DF28BD3AFE00FA22D0 /* AlbumViewModel.swift */; };
+		225879E328BD3B2B00FA22D0 /* AlbumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879E228BD3B2B00FA22D0 /* AlbumProvider.swift */; };
+		225879E528BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879E428BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		225879C628BD2C0200FA22D0 /* Sticker_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker_MasterUITests.swift; sourceTree = "<group>"; };
 		225879C828BD2C0200FA22D0 /* Sticker_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		225879D528BD311D00FA22D0 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		225879DB28BD3AC900FA22D0 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		225879DD28BD3AE300FA22D0 /* StickerCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCollection.swift; sourceTree = "<group>"; };
+		225879DF28BD3AFE00FA22D0 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		225879E228BD3B2B00FA22D0 /* AlbumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProvider.swift; sourceTree = "<group>"; };
+		225879E428BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalQatarWorldCupAlbumProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,6 @@
 				225879AE28BD2C0100FA22D0 /* Assets.xcassets */,
 				225879B028BD2C0100FA22D0 /* LaunchScreen.storyboard */,
 				225879B328BD2C0100FA22D0 /* Info.plist */,
-				225879D528BD311D00FA22D0 /* Sticker.swift */,
 			);
 			path = "Sticker Master";
 			sourceTree = "<group>";
@@ -128,6 +137,9 @@
 		225879D728BD3A8200FA22D0 /* Album */ = {
 			isa = PBXGroup;
 			children = (
+				225879E128BD3B1C00FA22D0 /* Loader */,
+				225879DA28BD3AAD00FA22D0 /* View */,
+				225879D928BD3AA600FA22D0 /* ViewModel */,
 				225879D828BD3A8800FA22D0 /* Model */,
 			);
 			path = Album;
@@ -136,8 +148,35 @@
 		225879D828BD3A8800FA22D0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				225879D528BD311D00FA22D0 /* Sticker.swift */,
+				225879DB28BD3AC900FA22D0 /* Album.swift */,
+				225879DD28BD3AE300FA22D0 /* StickerCollection.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		225879D928BD3AA600FA22D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				225879DF28BD3AFE00FA22D0 /* AlbumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		225879DA28BD3AAD00FA22D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		225879E128BD3B1C00FA22D0 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				225879E228BD3B2B00FA22D0 /* AlbumProvider.swift */,
+				225879E428BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift */,
+			);
+			path = Loader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225879E528BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift in Sources */,
+				225879E028BD3AFE00FA22D0 /* AlbumViewModel.swift in Sources */,
+				225879E328BD3B2B00FA22D0 /* AlbumProvider.swift in Sources */,
 				225879A628BD2BFF00FA22D0 /* AppDelegate.swift in Sources */,
 				225879D628BD311D00FA22D0 /* Sticker.swift in Sources */,
+				225879DE28BD3AE300FA22D0 /* StickerCollection.swift in Sources */,
 				225879A828BD2BFF00FA22D0 /* SceneDelegate.swift in Sources */,
+				225879DC28BD3AC900FA22D0 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
