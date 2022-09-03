@@ -21,6 +21,7 @@
 		225879E328BD3B2B00FA22D0 /* AlbumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879E228BD3B2B00FA22D0 /* AlbumProvider.swift */; };
 		225879E528BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879E428BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift */; };
 		225879E728BD3BBF00FA22D0 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225879E628BD3BBF00FA22D0 /* AlbumViewController.swift */; };
+		22E159D628BE36E6007F0E49 /* CollectionViewLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E159D528BE36E6007F0E49 /* CollectionViewLayoutProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		225879E228BD3B2B00FA22D0 /* AlbumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProvider.swift; sourceTree = "<group>"; };
 		225879E428BD3B4900FA22D0 /* LocalQatarWorldCupAlbumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalQatarWorldCupAlbumProvider.swift; sourceTree = "<group>"; };
 		225879E628BD3BBF00FA22D0 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		22E159D528BE36E6007F0E49 /* CollectionViewLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				225879AE28BD2C0100FA22D0 /* Assets.xcassets */,
 				225879B028BD2C0100FA22D0 /* LaunchScreen.storyboard */,
 				225879B328BD2C0100FA22D0 /* Info.plist */,
+				22E159D528BE36E6007F0E49 /* CollectionViewLayoutProvider.swift */,
 			);
 			path = "Sticker Master";
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				225879A628BD2BFF00FA22D0 /* AppDelegate.swift in Sources */,
 				225879D628BD311D00FA22D0 /* Sticker.swift in Sources */,
 				225879DE28BD3AE300FA22D0 /* StickerCollection.swift in Sources */,
+				22E159D628BE36E6007F0E49 /* CollectionViewLayoutProvider.swift in Sources */,
 				225879A828BD2BFF00FA22D0 /* SceneDelegate.swift in Sources */,
 				225879DC28BD3AC900FA22D0 /* Album.swift in Sources */,
 			);

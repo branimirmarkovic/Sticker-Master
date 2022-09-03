@@ -20,7 +20,6 @@ class LocalQatarWorldCupAlbumProvider: AlbumProvider {
         var emptyCollection = StickerCollection(name: type.rawValue, stickers: [])
         for number in range {
             let sticker = Sticker(
-                collected: false,
                 number: StickerNumber(
                     number: number,
                     prefix: type))
